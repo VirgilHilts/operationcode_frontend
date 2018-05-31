@@ -28,6 +28,7 @@ class Header extends Component {
       <span>
         <NavItem to="/about" text="About" onClick={onClick} />
         <NavItem to="/code_schools" text="Code Schools" onClick={onClick} />
+        <NavItem to="/meetups" text="Meetups" onClick={onClick} />
         <NavItem to="/jobs" text="Job Board" onClick={onClick} />
         <NavItem to={commonUrl.donateLink} text="Donate" onClick={onClick} isExternal />
         <NavItem to="/leadership_circle" text="Leadership Circle" onClick={onClick} />

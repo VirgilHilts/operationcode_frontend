@@ -28,6 +28,7 @@ import Footer from './footer/footer';
 import FourOhFour from './404/fourOhFour';
 import LeadershipCircle from './leadershipCircle/leadershipCircle';
 import CodeSchools from './codeSchools/codeSchools';
+import Meetups from './meetups/meetups';
 import About from './about/about';
 import Press from './press/press';
 import Branding from './branding/branding';
@@ -244,6 +245,7 @@ class Home extends Component {
               )}
             />
             <Route path="/team" component={Team} />
+            <Route path="/meetups" component={Meetups} />
             <Route path="/faq" component={FAQ} />
             <Route path="/contact" component={Contact} />
             <Route exact path="/about/financial-statements" component={FinancialStatements} />
